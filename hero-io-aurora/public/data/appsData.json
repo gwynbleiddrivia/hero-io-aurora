@@ -1,6 +1,6 @@
 [
   {
-    "image": "app1.png",
+    "image": "app1.webp",
     "title": "NoteFlow",
     "companyName": "ZenByte",
     "id": 1,
@@ -19,7 +19,7 @@
     ]
   },
   {
-    "image": "app2.png",
+    "image": "app2.webp",
     "title": "TaskForge",
     "companyName": "Productive Labs",
     "id": 2,
@@ -38,7 +38,7 @@
     ]
   },
   {
-    "image": "app3.png",
+    "image": "app3.webp",
     "title": "FitPulse",
     "companyName": "HealthSync",
     "id": 3,
@@ -57,7 +57,7 @@
     ]
   },
   {
-    "image": "app4.png",
+    "image": "app4.webp",
     "title": "PhotoFix",
     "companyName": "PixelWorks",
     "id": 4,
@@ -76,7 +76,7 @@
     ]
   },
   {
-    "image": "app5.png",
+    "image": "app5.webp",
     "title": "CalmWave",
     "companyName": "MindSpace",
     "id": 5,
@@ -95,7 +95,7 @@
     ]
   },
   {
-    "image": "app6.png",
+    "image": "app6.webp",
     "title": "CodeMate",
     "companyName": "DevCore",
     "id": 6,
