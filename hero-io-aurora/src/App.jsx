@@ -5,11 +5,10 @@ import heroImg from './assets/hero.png'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-    <button class="btn btn-primary">Button</button>
+    <button class="btn btn-primary">Button This is app</button>
 
     </>
   )
