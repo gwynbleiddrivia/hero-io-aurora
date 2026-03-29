@@ -1,0 +1,287 @@
+[
+  {
+    "image": "app1.png",
+    "title": "NoteFlow",
+    "companyName": "ZenByte",
+    "id": 1,
+    "description": "NoteFlow is designed to simplify your note-taking process. It allows you to organize ideas, thoughts, and reminders in a clean interface. With cloud sync, your notes are always accessible from any device.\n\nThe app supports rich text formatting and multimedia attachments. You can create lists, insert images, and highlight important points easily. Collaboration with friends or colleagues is seamless and intuitive.\n\nNoteFlow also includes a powerful search and tagging system. Your notes stay organized automatically. Whether for school, work, or personal projects, NoteFlow keeps your ideas flowing smoothly.",
+    "size": 25,
+    "reviews": 1240,
+    "ratingAvg": 4.5,
+    "downloads": 50000,
+    "appState": "notInstalled",
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 140 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "image": "app2.png",
+    "title": "TaskForge",
+    "companyName": "Productive Labs",
+    "id": 2,
+    "description": "TaskForge helps you manage your tasks efficiently. The app uses AI to suggest optimal schedules. You can easily track daily, weekly, and monthly goals.\n\nWith an intuitive interface, adding and editing tasks is quick. You can categorize tasks and set priority levels for each. Notifications ensure that no task goes unnoticed.\n\nThe app also provides detailed analytics on your productivity. It highlights patterns and trends over time. TaskForge turns planning into a precise and rewarding experience.",
+    "size": 40,
+    "reviews": 980,
+    "ratingAvg": 4.2,
+    "downloads": 30000,
+    "appState": "notInstalled",
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 320 },
+      { "name": "5 star", "count": 320 }
+    ]
+  },
+  {
+    "image": "app3.png",
+    "title": "FitPulse",
+    "companyName": "HealthSync",
+    "id": 3,
+    "description": "FitPulse lets you track workouts and monitor calories effectively. It provides personalized fitness plans based on your goals. Real-time tracking helps you stay on target during exercises.\n\nThe app supports integration with wearable devices. You can sync heart rate, steps, and sleep data seamlessly. Progress charts visualize your improvement over time.\n\nFitPulse also includes social features to stay motivated. Compete with friends or join fitness challenges. Whether beginner or advanced, FitPulse adapts to your level and keeps you engaged.",
+    "size": 55,
+    "reviews": 2100,
+    "ratingAvg": 4.7,
+    "downloads": 100000,
+    "appState": "notInstalled",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 70 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 1300 }
+    ]
+  },
+  {
+    "image": "app4.png",
+    "title": "PhotoFix",
+    "companyName": "PixelWorks",
+    "id": 4,
+    "description": "PhotoFix lets you edit images with AI-powered tools. You can enhance colors, remove imperfections, and apply filters quickly. The interface is designed to be intuitive for all skill levels.\n\nBatch editing saves time for multiple photos. You can crop, resize, and adjust lighting with precision. Advanced tools help bring your creative vision to life.\n\nThe app supports direct sharing to social media platforms. You can organize your edited photos into albums. PhotoFix ensures your memories look their best effortlessly.",
+    "size": 120,
+    "reviews": 3400,
+    "ratingAvg": 4.3,
+    "downloads": 200000,
+    "appState": "notInstalled",
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 1100 },
+      { "name": "5 star", "count": 1250 }
+    ]
+  },
+  {
+    "image": "app5.png",
+    "title": "CalmWave",
+    "companyName": "MindSpace",
+    "id": 5,
+    "description": "CalmWave helps you meditate and reduce stress. Guided sessions range from a few minutes to longer practices. The app tracks your progress over time to help build consistent habits.\n\nYou can choose from multiple themes and background sounds. Ambient music and nature sounds enhance relaxation. Notifications remind you to take mindful breaks during the day.\n\nCalmWave also includes breathing exercises and sleep stories. You can adjust difficulty and pace to your comfort. The app promotes mental clarity and a sense of calm daily.",
+    "size": 35,
+    "reviews": 870,
+    "ratingAvg": 4.6,
+    "downloads": 45000,
+    "appState": "notInstalled",
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 270 },
+      { "name": "5 star", "count": 400 }
+    ]
+  },
+  {
+    "image": "app6.png",
+    "title": "CodeMate",
+    "companyName": "DevCore",
+    "id": 6,
+    "description": "CodeMate provides a full-featured code editor on mobile. It supports multiple programming languages and syntax highlighting. You can write, compile, and debug code directly in the app.\n\nIntegration with cloud repositories allows seamless syncing. You can access GitHub or GitLab projects anytime. Real-time collaboration makes teamwork easy and efficient.\n\nThe app also includes customizable themes and keyboard shortcuts. You can adjust settings for optimal productivity. CodeMate makes coding on-the-go practical and enjoyable.",
+    "size": 75,
+    "reviews": 1500,
+    "ratingAvg": 4.1,
+    "downloads": 60000,
+    "appState": "notInstalled",
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 450 },
+      { "name": "5 star", "count": 450 }
+    ]
+  },
+  {
+    "image": "app7.png",
+    "title": "TravelMap",
+    "companyName": "GlobeTrek",
+    "id": 7,
+    "description": "TravelMap offers offline maps and travel planning tools. You can save locations and routes for trips without internet. The app provides travel tips and suggested itineraries.\n\nNavigation is optimized with turn-by-turn directions. You can view elevation profiles and traffic data. TravelMap makes exploring new destinations easier and safer.\n\nYou can also share maps and locations with friends. The app supports custom markers for points of interest. TravelMap helps make your trips smooth and well-organized.",
+    "size": 95,
+    "reviews": 2200,
+    "ratingAvg": 4.4,
+    "downloads": 80000,
+    "appState": "notInstalled",
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 750 }
+    ]
+  },
+  {
+    "image": "app8.png",
+    "title": "ShopEase",
+    "companyName": "QuickCart",
+    "id": 8,
+    "description": "ShopEase simplifies online shopping. Browse products, compare prices, and read reviews before purchasing. The app provides personalized recommendations based on your interests.\n\nYou can track orders and get notifications on deals. Secure payment options make transactions safe. ShopEase supports multiple delivery options and store integrations.\n\nThe app also offers wishlists and curated collections. You can follow brands or favorite stores for updates. ShopEase ensures a smooth and convenient shopping experience.",
+    "size": 60,
+    "reviews": 5000,
+    "ratingAvg": 3.9,
+    "downloads": 300000,
+    "appState": "notInstalled",
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 1100 },
+      { "name": "5 star", "count": 1000 }
+    ]
+  },
+  {
+    "image": "app9.png",
+    "title": "LangBridge",
+    "companyName": "EduSoft",
+    "id": 9,
+    "description": "LangBridge helps you learn new languages with AI tutors. Lessons are interactive and personalized to your level. Progress tracking allows you to monitor skills and vocabulary growth.\n\nThe app includes speaking, listening, and writing exercises. Gamified challenges keep learning engaging. Native pronunciation guides ensure accurate language acquisition.\n\nYou can also join language communities and practice with peers. Daily reminders and streak tracking keep motivation high. LangBridge transforms language learning into a fun and consistent habit.",
+    "size": 80,
+    "reviews": 2700,
+    "ratingAvg": 4.6,
+    "downloads": 120000,
+    "appState": "notInstalled",
+    "ratings": [
+      { "name": "1 star", "count": 90 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 900 },
+      { "name": "5 star", "count": 1290 }
+    ]
+  },
+  {
+    "image": "app10.png",
+    "title": "NewsPulse",
+    "companyName": "InfoStream",
+    "id": 10,
+    "description": "NewsPulse delivers personalized news from multiple sources. You can filter topics based on your interests. The app supports offline reading for convenience.\n\nBreaking news notifications keep you informed in real-time. Articles include images and videos for context. You can save stories to read later or share with friends.\n\nThe app also provides daily summaries and insights. You can customize the reading layout for comfort. NewsPulse ensures you stay informed efficiently every day.",
+    "size": 45,
+    "reviews": 1800,
+    "ratingAvg": 4.0,
+    "downloads": 90000,
+    "appState": "notInstalled",
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 550 },
+      { "name": "5 star", "count": 500 }
+    ]
+  },
+  {
+    "image": "app11.png",
+    "title": "MusicZen",
+    "companyName": "SoundWave Inc",
+    "id": 11,
+    "description": "MusicZen allows you to stream music with smart playlists. AI-powered suggestions adapt to your taste. You can create custom playlists and organize favorites easily.\n\nOffline mode ensures music is available without internet. The app supports multiple audio formats for high-quality playback. Lyrics display enhances your listening experience.\n\nMusicZen also integrates with social sharing. You can follow friends and discover their playlists. The app keeps music discovery and enjoyment seamless.",
+    "size": 70,
+    "reviews": 3200,
+    "ratingAvg": 4.5,
+    "downloads": 250000,
+    "appState": "notInstalled",
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 1200 },
+      { "name": "5 star", "count": 1180 }
+    ]
+  },
+  {
+    "image": "app12.png",
+    "title": "SecureVault",
+    "companyName": "CyberSafe",
+    "id": 12,
+    "description": "SecureVault keeps your passwords and sensitive data safe. End-to-end encryption ensures privacy. You can store login credentials, notes, and cards securely.\n\nThe app supports biometric authentication and two-factor verification. Auto-fill features save time during logins. You can organize entries with folders and tags for quick access.\n\nSecureVault also generates strong passwords automatically. Alerts notify you of potential breaches. The app makes security effortless and reliable.",
+    "size": 30,
+    "reviews": 900,
+    "ratingAvg": 4.7,
+    "downloads": 40000,
+    "appState": "notInstalled",
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 250 },
+      { "name": "5 star", "count": 500 }
+    ]
+  },
+  {
+    "image": "app13.png",
+    "title": "GameHub",
+    "companyName": "PlayNation",
+    "id": 13,
+    "description": "GameHub organizes and manages your games efficiently. You can browse new releases and add titles to your collection. The app tracks playtime and achievements automatically.\n\nSocial features allow sharing with friends and joining gaming communities. You can follow updates, patches, and events for your favorite games. Recommendations help discover titles suited to your taste.\n\nGameHub also supports cloud saves and cross-platform tracking. You can sync progress across devices effortlessly. The app enhances the overall gaming experience by centralizing everything in one place.",
+    "size": 110,
+    "reviews": 4100,
+    "ratingAvg": 4.2,
+    "downloads": 180000,
+    "appState": "notInstalled",
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 1400 },
+      { "name": "5 star", "count": 1200 }
+    ]
+  },
+  {
+    "image": "app14.png",
+    "title": "BudgetWise",
+    "companyName": "FinTrack",
+    "id": 14,
+    "description": "BudgetWise helps you monitor expenses and plan savings. You can set budgets and categorize transactions easily. The app provides visual summaries for better understanding.\n\nNotifications alert you when spending exceeds limits. You can track recurring bills and subscriptions efficiently. BudgetWise supports multiple currencies for travelers.\n\nThe app also includes goal tracking for savings. Progress charts motivate better financial habits. BudgetWise transforms budgeting into a simple and engaging task.",
+    "size": 50,
+    "reviews": 1300,
+    "ratingAvg": 4.3,
+    "downloads": 70000,
+    "appState": "notInstalled",
+    "ratings": [
+      { "name": "1 star", "count": 80 },
+      { "name": "2 star", "count": 120 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 350 }
+    ]
+  },
+  {
+    "image": "app15.png",
+    "title": "WeatherCast",
+    "companyName": "SkyNetics",
+    "id": 15,
+    "description": "WeatherCast provides accurate and detailed forecasts. You can view hourly, daily, and weekly weather. Severe weather alerts keep you prepared for unexpected events.\n\nThe app includes interactive maps for precipitation, wind, and temperature. You can customize notifications for your location. WeatherCast also tracks environmental conditions like UV index and humidity.\n\nWidgets provide quick updates without opening the app. You can save favorite locations and travel spots. WeatherCast ensures you stay informed and safe in all conditions.",
+    "size": 20,
+    "reviews": 2100,
+    "ratingAvg": 4.1,
+    "downloads": 150000,
+    "appState": "notInstalled",
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 500 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 450 }
+    ]
+  }
+]
