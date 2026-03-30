@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { ToastContainer, toast } from 'react-toastify'
+import { millify } from "millify";
 
 export default function Installation() {
   const [loading, setLoading] = useState(true)
@@ -13,7 +14,7 @@ export default function Installation() {
     const appsStored = localStorage.getItem("installedApps")
     const parsed = appsStored ? JSON.parse(appsStored) : {}
     setInstalledApps(Object.values(parsed))
-    
+
     };
     handleStorage();
     window.addEventListener("storage", handleStorage);
@@ -91,7 +92,7 @@ export default function Installation() {
                 <div className="text-green-700 font-bold flex gap-1 items-center">
                   <img src="../../src/assets/icon-downloads.png" alt="" className="w-5 h-5" />
                   <div>
-                    {app.downloads}
+                    {millify(app.downloads)}
                   </div>
                 </div> 
                 <div className="text-orange-700 font-bold flex gap-1 items-center">

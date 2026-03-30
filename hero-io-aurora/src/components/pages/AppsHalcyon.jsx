@@ -57,7 +57,7 @@ export default function AppsHalcyon() {
     {
       query === "" 
         ? (
-          <div className="grid grid-cols-4">
+          <div className="grid md:grid-cols-4 grid-cols-1">
             {data.map(app => (
               <Link to={`/appDetails/${app.id}`} key={app.id}>
                 <AppCard 
@@ -73,7 +73,7 @@ export default function AppsHalcyon() {
         )
         : filtered.length > 0 
           ? (
-            <div className="grid grid-cols-4">
+            <div className="grid md:grid-cols-4 grid-cols-1">
               {filtered.map(app => (
                 <Link to={`/appDetails/${app.id}`} key={app.id}>
                   <AppCard 

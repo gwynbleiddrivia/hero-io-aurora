@@ -1,16 +1,11 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# HERO-IO-AURORA
+## Description
+This app displays apps made my productive.io<br>
+It has Home page, Apps page and Installation Page<br>
+User can go to Apps page to see all the available apps. Upon clicking on an App card, it will redirect you to the App Details page, where you can install the app.<br>
+In the installation page, you can see all your installed apps.<br>
+Clicking Uninstall will remove the app from the Installation page.<br>
+React router, tailwind css and daisyui have been used for this application.<br>
+localStorage has been used as a temporary database to show the installed apps.<br>
+Loading spinner works on every page, there is a search bar in Apps page, there is a dropdown to sort installed apps by ascending or descending order of downloads in the Installation page.<br>
+All pages are responsive.<br> 
