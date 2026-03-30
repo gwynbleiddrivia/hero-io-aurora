@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div className="flex flex-col md:flex-row justify-between w-full m-2 px-5 gap-5 md:gap-2">
         <Link to={'/home'} className="flex items-center gap-1">
-          <img src="../../src/assets/logo.png" alt="" className="w-10"/>
+          <img src="/assets/logo.png" alt="" className="w-10"/>
           <div className="text-xl font-bold">HERO.IO</div>
         </Link>
         <ul className="flex flex-col md:flex-row w-full gap-1 text-xl font-md justify-evenly">
