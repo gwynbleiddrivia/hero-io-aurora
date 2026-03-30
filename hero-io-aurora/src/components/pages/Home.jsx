@@ -14,7 +14,7 @@ export default function Home() {
     <div className="flex gap-2">
 
     <h1 className="text-4xl">Loading..</h1>
-    <img src="../../src/assets/logo.png" className="animate-spin w-15 h-15"/>
+    <img src="/assets/logo.png" className="animate-spin w-15 h-15"/>
     
     </div>
     }
@@ -37,15 +37,15 @@ export default function Home() {
         </div>
         <div className="flex items-center justify-evenly">
           <a className="flex gap-2 items-center border border-gray-300 px-5 py-2 rounded-md" target="_blank" href="https://play.google.com/store/">
-            <img src="../../src/assets/play.jpg" alt="" className="w-10"/>
+            <img src="/assets/play.jpg" alt="" className="w-10"/>
             <div>Google Play</div>
           </a>
           <a className="flex gap-2 items-center border border-gray-300 px-5 py-2 rounded-md" target="_blank" href="https://www.apple.com/app-store/">
-            <img src="../../src/assets/appstore.png" alt="" className="w-10"/>
+            <img src="/assets/appstore.png" alt="" className="w-10"/>
             <div>App Store</div>
           </a>
         </div>
-        <img src="../../src/assets/hero.png" alt="" />
+        <img src="/assets/hero.png" alt="" />
       </div>
       <div className="Banner2 flex flex-col items-center space-y-5 bg-linear-to-r from-homegradient-first to-homegradient-last p-15">
         <div className="text-xl md:text-5xl font-bold text-white whitespace-nowrap">Trusted By Million, Built For You</div>
@@ -73,12 +73,13 @@ export default function Home() {
           <p className="text-sm mb-5">Explore All Trending Apps on the Market developed by us</p>
         </div>
         <div className="appGrid grid grid-cols-1 md:grid-cols-4">
+            
             { 
             data.map(app=>(
             <Link to={`/appDetails/${app.id}`} key={app.id}>
-              <AppCard id={app.id} title={app.title} img= {`../../src/assets/${app.image}`} downloads={app.downloads} ratingAvg={app.ratingAvg}/>
+              <AppCard id={app.id} title={app.title} img= {`/assets/${app.image}`} downloads={app.downloads} ratingAvg={app.ratingAvg}/>
             </Link>
-            )) 
+            ))
             }
         </div>
         <div className="showAll mt-10 bg-linear-to-r from-homegradient-first to-homegradient-last text-white text-xl font-md px-12 py-5 rounded-md">

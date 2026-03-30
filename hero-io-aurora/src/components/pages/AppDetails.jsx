@@ -44,7 +44,7 @@ export default function AppDetails() {
     <div className="flex gap-2 items-center justify-content">
 
     <h1 className="text-4xl">Loading..</h1>
-    <img src="../../src/assets/logo.png" className="animate-spin w-15 h-15"/>
+    <img src="/assets/logo.png" className="animate-spin w-15 h-15"/>
     
     </div>
     }
@@ -53,7 +53,7 @@ export default function AppDetails() {
       
     <div className="">
       <div className="top-section flex flex-col md:flex-row gap-5 justify-center">
-        <img src={`../../src/assets/${app.image}`} alt="" className="h-full object-cover"/>
+        <img src={`/assets/${app.image}`} alt="" className="h-full object-cover"/>
         <div className="top-right flex flex-col gap-5 space-y-3">
           <div className="text-5xl font-bold">{app.title}</div>
           <p className="text-gray-500 text-sm">Developed by <span className="text-violet-700">productive.io</span></p>
@@ -61,19 +61,19 @@ export default function AppDetails() {
           <div className="downraterev flex flex-col md:flex-row gap-5 md:gap-2 justify-between w-full">
 
             <div className="flex flex-col">
-              <img src="../../src/assets/icon-downloads.png" alt="" className="w-10"/>
+              <img src="/assets/icon-downloads.png" alt="" className="w-10"/>
               <p className="text-sm text-gray-500">Downloads</p>
               <p className="text-5xl font-bold">{app.downloads}</p>
             </div>
 
             <div className="flex flex-col">
-              <img src="../../src/assets/icon-ratings.png" alt="" className="w-10"/>
+              <img src="/assets/icon-ratings.png" alt="" className="w-10"/>
               <p className="text-sm text-gray-500">Average Ratings</p>
               <p className="text-5xl font-bold">{app.ratingAvg}</p>
             </div>
 
             <div className="flex flex-col">
-              <img src="../../src/assets/icon-review.png" alt="" className="w-10"/>
+              <img src="/assets/icon-review.png" alt="" className="w-10"/>
               <p className="text-sm text-gray-500">Total Reviews</p>
               <p className="text-5xl font-bold">{app.reviews}</p>
             </div>

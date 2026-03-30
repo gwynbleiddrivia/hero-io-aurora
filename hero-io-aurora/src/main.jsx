@@ -10,6 +10,7 @@ import NotFound from './components/pages/NotFound.jsx'
 import AppDetails from './components/pages/AppDetails.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import axios from 'axios'
+
 const router = createBrowserRouter([{
   path: "/",
   element: <Layout/>,
@@ -17,7 +18,11 @@ const router = createBrowserRouter([{
     {
       index: true,
       path: "/",
-      element: <App/>
+      element: <App/>,
+      loader: async () => {
+        const res = await axios.get('/data/appsData.json')
+        return res.data.slice(0,8)
+      } 
     },
     {
       path: "home",

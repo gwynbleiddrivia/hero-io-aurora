@@ -47,7 +47,7 @@ export default function AppsHalcyon() {
     <div className="flex gap-2 items-center justify-content">
 
     <h1 className="text-4xl">Loading..</h1>
-    <img src="../../src/assets/logo.png" className="animate-spin w-15 h-15"/>
+    <img src="/assets/logo.png" className="animate-spin w-15 h-15"/>
     
     </div>
     }
@@ -58,12 +58,12 @@ export default function AppsHalcyon() {
       query === "" 
         ? (
           <div className="grid md:grid-cols-4 grid-cols-1">
-            {data.map(app => (
+            {data?.map(app => (
               <Link to={`/appDetails/${app.id}`} key={app.id}>
                 <AppCard 
                   id={app.id} 
                   title={app.title} 
-                  img={`../../src/assets/${app.image}`} 
+                  img={`/assets/${app.image}`} 
                   downloads={app.downloads} 
                   ratingAvg={app.ratingAvg}
                 />
@@ -71,7 +71,7 @@ export default function AppsHalcyon() {
             ))}
           </div>
         )
-        : filtered.length > 0 
+        : filtered?.length > 0 
           ? (
             <div className="grid md:grid-cols-4 grid-cols-1">
               {filtered.map(app => (
@@ -79,7 +79,7 @@ export default function AppsHalcyon() {
                   <AppCard 
                     id={app.id} 
                     title={app.title} 
-                    img={`../../src/assets/${app.image}`} 
+                    img={`/assets/${app.image}`} 
                     downloads={app.downloads} 
                     ratingAvg={app.ratingAvg}
                   />
@@ -89,7 +89,7 @@ export default function AppsHalcyon() {
           )
           : (
             <div className="w-full flex flex-col justify-center items-center">
-              <img src="../../src/assets/App-Error.png" alt="" />
+              <img src="/assets/App-Error.png" alt="" />
               <p className="text-7xl font-bold">OOPS! APP NOT FOUND</p>
               <p>The App you are requesting is not found in our system, please try another apps</p>
               <div className="showAll mt-10 bg-linear-to-r from-homegradient-first to-homegradient-last text-white text-xl font-md px-12 py-5 rounded-md">

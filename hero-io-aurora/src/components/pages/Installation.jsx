@@ -49,7 +49,7 @@ export default function Installation() {
     <div className="flex gap-2">
 
     <h1 className="text-4xl">Loading..</h1>
-    <img src="../../src/assets/logo.png" className="animate-spin w-15 h-15"/>
+    <img src="/assets/logo.png" className="animate-spin w-15 h-15"/>
     
     </div>
     }
@@ -84,19 +84,19 @@ export default function Installation() {
 
           <div className="flex">
             <div>
-              <img src={`../../src/assets/${app.image}`} alt="" className="w-12"/>
+              <img src={`/assets/${app.image}`} alt="" className="w-12"/>
             </div>
             <div className="flex flex-col">
               <p className="font-bold">{app.title}</p>
               <div className="flex gap-5">
                 <div className="text-green-700 font-bold flex gap-1 items-center">
-                  <img src="../../src/assets/icon-downloads.png" alt="" className="w-5 h-5" />
+                  <img src="/assets/icon-downloads.png" alt="" className="w-5 h-5" />
                   <div>
                     {millify(app.downloads)}
                   </div>
                 </div> 
                 <div className="text-orange-700 font-bold flex gap-1 items-center">
-                <img src="../../src/assets/icon-ratings.png" alt="" className="w-5 h-5" />
+                <img src="/assets/icon-ratings.png" alt="" className="w-5 h-5" />
                   <div>
                     {app.ratingAvg}
                   </div>
