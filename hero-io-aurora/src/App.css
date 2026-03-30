@@ -1,2 +1,7 @@
 @import "tailwindcss";
 @plugin "daisyui";
+
+@theme {
+    --color-homegradient-first: #632EE3;
+    --color-homegradient-last: #9F62F2;
+}

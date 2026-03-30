@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { ToastContainer, toast } from 'react-toastify'
 
 export default function Installation() {
   const [loading, setLoading] = useState(true)
@@ -25,6 +26,7 @@ export default function Installation() {
     e.preventDefault()
     const appsStored = localStorage.getItem("installedApps")
     const parsed = appsStored ? JSON.parse(appsStored) : {}
+    toast(`${parsed[id].title} uninstalled!`)
     delete parsed[String(id)];
 
     localStorage.setItem("installedApps", JSON.stringify(parsed))
@@ -88,6 +90,7 @@ export default function Installation() {
      
      
     </div>}
+    <ToastContainer/>
     </>
   )
 }
