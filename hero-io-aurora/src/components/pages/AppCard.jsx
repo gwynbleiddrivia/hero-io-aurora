@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function AppCard({id, title, img, downloads, ratingAvg}) {
   return (
-    <div className="flex flex-col border border-grey m-2">
+    <div className="flex flex-col border border-gray-300 rounded-md m-2 p-2">
         <img src={img} alt="" />
         <div>{title}</div>
         <div className="w-full justify-between flex">

@@ -67,12 +67,12 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="Trending flex flex-col items-center">
+      <div className="Trending flex flex-col items-center mt-5">
         <div className="title flex flex-col items-center">
-          <p className="text-5xl">Trending Apps</p>
-          <p>Explore All Trending Apps on the Market developed by us</p>
+          <p className="text-5xl mb-5 font-bold">Trending Apps</p>
+          <p className="text-sm mb-5">Explore All Trending Apps on the Market developed by us</p>
         </div>
-        <div className="appGrid grid grid-cols-4">
+        <div className="appGrid grid grid-cols-1 md:grid-cols-4">
             { 
             data.map(app=>(
             <Link to={`/appDetails/${app.id}`} key={app.id}>
@@ -81,7 +81,11 @@ export default function Home() {
             )) 
             }
         </div>
-        <div className="showAll"></div>
+        <div className="showAll mt-10 bg-linear-to-r from-homegradient-first to-homegradient-last text-white text-xl font-md px-12 py-5 rounded-md">
+          <Link to="/apps" className="">
+            Show All
+          </Link>
+        </div>
       </div>
     </div>
      
