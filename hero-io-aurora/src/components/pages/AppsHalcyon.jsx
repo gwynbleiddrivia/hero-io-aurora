@@ -18,7 +18,7 @@ export default function AppsHalcyon() {
     setQuery(value)
     setLoading(true)
 
-    setTimeout(()=>{setLoading(false)}, 200)
+    setTimeout(()=>{setLoading(false)}, 100)
   }
 
   return (

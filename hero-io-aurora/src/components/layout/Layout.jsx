@@ -6,9 +6,11 @@ import Footer from './Footer'
 
 export default function Layout() {
   return (
-    <div>
+    <div className="flex flex-col items-center">
         <Header className="w-full"/>
-        <Outlet className="min-h-screen"/>
+        <main className="min-h-screen">
+          <Outlet className=""/>
+        </main>
         <Footer className="w-full"/>
     </div>
   )
