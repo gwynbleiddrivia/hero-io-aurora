@@ -48,10 +48,9 @@ export default function AppDetails() {
     
     </div>
     }
-    {!loading && <div>
+    {!loading && <div className="">
       
       
-    <div>App Id {id} here present!!</div>
     <div className="">
       <div className="top-section flex flex-col md:flex-row gap-5 justify-center">
         <img src={`../../src/assets/${app.image}`} alt="" className="h-full object-cover"/>

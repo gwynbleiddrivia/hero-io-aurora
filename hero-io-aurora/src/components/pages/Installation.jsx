@@ -56,9 +56,12 @@ export default function Installation() {
       
       
     <div>
-
-      <div className="flex w-full justify-between">
-        <div>
+      <div className="flex flex-col items-center gap-5 mb-5">
+        <div className="text-5xl font-bold">Your Installed Apps</div>
+        <p className="text-gray-500 text-sm">Explore All Trending Apps on Market developed by us</p>
+      </div>
+      <div className="flex w-full justify-between items-center gap-5 mb-5">
+        <div className="font-bold">
           {installedApps.length} Installed Apps Found
         </div>
         <div>
@@ -73,13 +76,35 @@ export default function Installation() {
           </select>
         </div>
       </div>
-      <div>
+      <div className="gap-5 flex flex-col w-full">
         {sortedApps.map(app=>(
-          <div className="flex w-full justify-between" key={app.id}>
+          <div className="flex w-full justify-between border border-gray-500 rounded-md p-5 items-center" key={app.id}>
 
-          <div>
-            {app.title}
+
+          <div className="flex">
+            <div>
+              <img src={`../../src/assets/${app.image}`} alt="" className="w-12"/>
+            </div>
+            <div className="flex flex-col">
+              <p className="font-bold">{app.title}</p>
+              <div className="flex gap-5">
+                <div className="text-green-700 font-bold flex gap-1 items-center">
+                  <img src="../../src/assets/icon-downloads.png" alt="" className="w-5 h-5" />
+                  <div>
+                    {app.downloads}
+                  </div>
+                </div> 
+                <div className="text-orange-700 font-bold flex gap-1 items-center">
+                <img src="../../src/assets/icon-ratings.png" alt="" className="w-5 h-5" />
+                  <div>
+                    {app.ratingAvg}
+                  </div>
+                </div> 
+                <div className="text-gray-500">{app.size}MB</div> 
+              </div>
+            </div>
           </div>
+
           <button className="btn btn-primary" onClick={(e)=>handleUninstall(e, String(app.id))}>Uninstall</button>
 
           </div>
