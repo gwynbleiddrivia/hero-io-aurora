@@ -21,7 +21,11 @@ const router = createBrowserRouter([{
     },
     {
       path: "home",
-      element: <Home/>
+      element: <Home/>,
+      loader: async () => {
+        const res = await axios.get('/data/appsData.json')
+        return res.data
+      }      
     },
     {
       path: "apps",
