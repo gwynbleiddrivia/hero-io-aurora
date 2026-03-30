@@ -31,6 +31,15 @@ export default function Installation() {
     setInstalledApps(Object.values(parsed))
   }
 
+  const [sortSetting, setSortSetting] = useState('none')
+  const sortedApps = [...installedApps].sort((a,b) =>  
+      sortSetting === 'high' ? b.downloads - a.downloads :
+      sortSetting === 'low' ? a.downloads - b.downloads : 
+      0
+    
+  );
+
+
   return (
     <>
     {loading && 
@@ -46,9 +55,24 @@ export default function Installation() {
       
     <div>
 
-      <div>Installation</div>
+      <div className="flex w-full justify-between">
+        <div>
+          {installedApps.length} Installed Apps Found
+        </div>
+        <div>
+          <select 
+            value={sortSetting}
+            onChange={(e) => setSortSetting(e.target.value)}
+            className="border rounded p-1"
+          >
+            <option value="none">Sort by downloads</option>
+            <option value="high">High to Low</option>
+            <option value="low">Low to High</option>
+          </select>
+        </div>
+      </div>
       <div>
-        {installedApps.map(app=>(
+        {sortedApps.map(app=>(
           <div className="flex w-full justify-between" key={app.id}>
 
           <div>
