@@ -50,7 +50,7 @@ export default function AppsHalcyon() {
       <div className="grid grid-cols-4">
         {query==="" 
           ? data.map(app=>(
-            <Link to={`/appDetails/${app.id}}`} key={app.id}>
+            <Link to={`/appDetails/${app.id}`} key={app.id}>
               <AppCard id={app.id} title={app.title} img= {`../../src/assets/${app.image}`} downloads={app.downloads} ratingAvg={app.ratingAvg}/>
             </Link>
         )) 

@@ -5,6 +5,32 @@ export default function Installation() {
   useEffect(()=>{
     setTimeout(()=> setLoading(false), 100)
   },[])
+
+  const [installedApps, setInstalledApps] = useState([])
+  useEffect(()=>{
+    const handleStorage = () => {
+    const appsStored = localStorage.getItem("installedApps")
+    const parsed = appsStored ? JSON.parse(appsStored) : {}
+    setInstalledApps(Object.values(parsed))
+    
+    };
+    handleStorage();
+    window.addEventListener("storage", handleStorage);
+    return () => window.removeEventListener("storage", handleStorage);
+
+  },[])
+  console.log(installedApps,"eigula")
+
+  const handleUninstall = (e, id) =>{
+    e.preventDefault()
+    const appsStored = localStorage.getItem("installedApps")
+    const parsed = appsStored ? JSON.parse(appsStored) : {}
+    delete parsed[String(id)];
+
+    localStorage.setItem("installedApps", JSON.stringify(parsed))
+    setInstalledApps(Object.values(parsed))
+  }
+
   return (
     <>
     {loading && 
@@ -18,7 +44,23 @@ export default function Installation() {
     {!loading && <div>
       
       
-    <div>Installation</div>
+    <div>
+
+      <div>Installation</div>
+      <div>
+        {installedApps.map(app=>(
+          <div className="flex w-full justify-between" key={app.id}>
+
+          <div>
+            {app.title}
+          </div>
+          <button className="btn btn-primary" onClick={(e)=>handleUninstall(e, String(app.id))}>Uninstall</button>
+
+          </div>
+        ))}
+      </div>
+
+    </div>
      
      
     </div>}
